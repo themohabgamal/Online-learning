@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+
+body {
+    font-size: 16px;
+    background-color: black;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* main section ------------------------------------------------------------------------------------- */
+.main-sec {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(imgs/headway-F2KRf_QfCqw-unsplash.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-txt {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    justify-content: center;
+    color: white;
+}
+
+.main-txt h1 {
+    font-weight: 900;
+}
+
+.btn-main {
+    background-color: #DC7467;
+    border: none;
+
+}
+
+.top-search {
+    background-color: rgba(175, 175, 175, 0.419);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*end main section ------------------------------------------------------------------------------------- */
+/* navbar */
+
+.navbar .container {
+    max-width: 82rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .brand {
+        width: 122px;
+    }
+}
+
+.nav-btn-1 {
+    background-color: #05c689;
+    border: none;
+    min-width: 120px;
+    transition: 0.9s ease all;
+
+}
+
+.nav-btn-2 {
+    border: 1px solid #05c689;
+    color: white;
+    min-width: 130px;
+    transition: 0.8s ease all;
+}
+
+.nav-btn-1:hover {
+    background: rgb(255, 202, 82);
+    background: linear-gradient(0deg, rgba(255, 202, 82, 1) 49%, rgba(5, 198, 137, 1) 100%);
+}
+
+.nav-btn-2:hover {
+    border: 1px solid #5EECBE;
+    background: rgb(255, 202, 82);
+    background: linear-gradient(0deg, rgba(255, 202, 82, 1) 49%, rgba(5, 198, 137, 1) 100%);
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: rgb(169, 169, 169);
+    border-bottom: 1px solid #FFB108;
+}
+
+
+/* end nav bar  */
+/* services---------------------------------------------------------------------------------------- */
+.services-sec {
+    min-height: 70vh;
+    padding: 50px 0 50px 0;
+    background-color: #000101;
+}
+
+.services-sec .container {
+    max-width: 55rem;
+}
+
+.services-header {
+    font-weight: 700;
+    color: whitesmoke;
+    padding-bottom: 30px;
+}
+
+.s-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    background-color: #2F4858;
+    transition: 0.3s ease all;
+    border-top: #CC9C75 5px solid;
+
+}
+
+.s-card:hover {
+    box-shadow:
+        1px 1px #CC9C75,
+        2px 2px #CC9C75,
+        3px 3px #CC9C75;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-10px);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.service-icon {
+    font-size: 5rem;
+    color: #05c689;
+}
+
+/* end of services ------------------------------------------------------------------------- */
+/* start of signup-------------------------------------------------------------------------- */
+.signup-sec {
+    background-image: url(imgs/signup.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* features-sec-------------------------------------------------------------------- */
+.features-sec {
+    min-height: 100vh;
+    background-color: #001b1b;
+    padding-top: 50px;
+}
+
+.features-txt {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    justify-content: center;
+
+}
+
+.f-container {
+    max-width: 1200px;
+}
+
+.f-header {
+    color: #EAE784;
+}
+
+/* newsletter------------------------------------------------------------------ */
+.card {
+    background-color: transparent;
+}
